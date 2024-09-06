@@ -1,0 +1,12 @@
+.sidebar a span{
+    font-size: 14px;
+    color: #052c65;
+}
+.sidebar hr {
+    margin: 0 -16px;
+    width: calc(100% + 32px);
+
+}
+.mt-7 {
+    margin-top: 60px;
+}

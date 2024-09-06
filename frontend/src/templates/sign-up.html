@@ -1,0 +1,77 @@
+<div class="login-box">
+    <a href="javascript:void(0)" class="logo d-flex justify-content-center align-items-center mb-3">
+        <img src="./images/Logo1.png" alt="logo" style="width: 171px; height: 70px">
+    </a>
+    <div class="login-entry">
+        Создайте аккаунт
+    </div>
+    <!-- /.login-logo -->
+    <div class="card">
+        <div class="card-body login-card-body">
+            <div id="common-error" class="error invalid-feedback text-center mb-3">Не удалось зарегистрировать пользователя.</div>
+            <form>
+                <div class="input-group mb-3">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fa fa-user"></span>
+                        </div>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Фамилия Имя" id="name">
+
+                    <span id="name-error" class="error invalid-feedback">Заполните ффмилию и имя</span>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fa fa-envelope"></span>
+                        </div>
+                    </div>
+                    <input type="email" class="form-control" placeholder="Электронная почта" id="email">
+                    <span id="email-error" class="error invalid-feedback">Введите корректный E-mail</span>
+
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fa fa-lock"></span>
+                        </div>
+                    </div>
+                    <input type="password" class="form-control" placeholder="Пароль" id="password">
+
+
+                    <span id="password-error" class="error invalid-feedback">Заполните пароль</span>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fa fa-lock"></span>
+                        </div>
+                    </div>
+                    <input type="password" class="form-control" placeholder="Повторите пароль" id="password-repeat">
+
+                    <span id="password-repeat-error" class="error invalid-feedback">Пароли не совпадают</span>
+                </div>
+
+                <div class="row">
+                    <!-- /.col -->
+                    <div class="col-12">
+                        <button type="button" class="btn btn-primary btn-block" id="process-button">Войти</button>
+                    </div>
+                    <!-- /.col -->
+                </div>
+            </form>
+            <div class="social-auth-links text-start mt-3">
+                Уже есть аккаунт?
+                <a href="/login">
+                    Войдите в систему
+                </a>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</div>
